@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+.imagenFondo {
+  background-color: #262526;
+  background-image: url("ClaireDanes3.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.imagenPantalla2 {
+  background-color: #262526;
+    background-image: url("ClaireDanes4.png");
+}
+
+
+.imputsSection{
+  float:left;
+  margin-top: -530px;
+  padding-left: 790px;
+}
+
+.botonesCifrado{
+  float:right;
+  margin-top: -455px;
+  padding-right: 500px;
+}
+
+.misionTittle{
+  color: #5E5E5E;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.agenteCia {
+  color: #F2F2F2;
+  background-color: none;
+  font-size: 18px;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: left;
+  padding-left: 200px;
+  padding-right: 0px;
+  margin-top: 350px;
+}
+
+.resumen {
+  color: #F2F2F2;
+  background-color: none;
+  font-size: 20px;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: right;
+  padding-right: 200px;
+  padding-left: 0px;
+  margin-top: -70px;
+}
+
+.preguntaNom{
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 125px;
+}
+
+
+.textito{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: transparent;
+  border-radius: 18px;
+  border: 1px solid white;
+  height: 35px;
+  width: 250px;
+  text-align: center;
+  color: white;
+}
+
+.botoncito {
+  margin-top: 18px;
+  margin-bottom: 50px;
+  color: #F2F2F2;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 22px;
+  background-color: #96866E;
+  border-radius: 25px;
+  border: none none none;
+  height:32px;
+  width:150px;
+  cursor:pointer;
+}
+
+
+
+.botoncitoCipher {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #F2F2F2;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 22px;
+  background-color: #96866E;
+  border-radius: 25px;
+  border: none none none;
+  height:28px;
+  width:155px;
+  cursor:pointer;
+}
+
+.botonBorrar {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: ##4F4F4F;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 22px;
+  background-color: ##CAC2B6;
+  border-radius: 25px;
+  border: none none none;
+  height:28px;
+  width:155px;
+  cursor:pointer;
+}
+
+.botonHome {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: ##4F4F4F;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 22px;
+  background-color: ##CAC2B6;
+  border-radius: 25px;
+  border: none none none;
+  height:28px;
+  width:155px;
+  cursor:pointer;
+}
+
+.cipherSms{
+  height:150px;
+  width:350px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.instruction {
+  color: white;
+  background-color: none;
+  font-size: 17px;
+  font-family:sans-serif;
+  text-align: center;
+  text-shadow: 0px;
+
+}
+
+.oculto {
+  display: none;
+  text-align: center;
+}
+
+.menSaje{
+  color: white;
+  font-size: 20px;
+  font-family:'Julius Sans One', sans-serif;
+  text-align: center;
+}
+
+.colocaLlave{
+ margin-left: 45px;
+}

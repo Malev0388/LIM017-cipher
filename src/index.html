@@ -1,14 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="wiewport" content="width=device-width, initial-scale=1.0">
+    <title>Misión César</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="icon" href="Favicon.png">
+
+    <link href= "https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+
   </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+  <body id="bodies" class="imagenFondo">
+
+<!--Página de bienvenida-->
+      <header>
+      <div id="tituloMision" class="misionTittle">
+         <h1>MISION <br>CESAR</h1> </div>
+       </header>
+
+
+<div id="nombreAgente" class="agenteCia">
+       <h2>CARRIE MATHISON</h2>
+       <p>Agente Secreto de la CIA</p>
+</div>
+
+
+<div id="resumenAgente" class="resumen">
+     <p>"Carrie se encuentra cumpliendo
+     <br>una misión ahora. Ella no te conoce,
+     <br>pero te pedirá ayuda para no ponerla
+     <br>en riesgo. Lo que debes hacer es
+     <br>seguir sus instrucciones para
+     <br>codificar un mensaje."</p>
+</div>
+
+
+<!--Captura de nombre del usuario-->
+    <div id="preguntaUno" class="preguntaNom">
+      <p> ¿Cuál es tu nombre? </p>
+      <input id="nombreUsuario" class="textito" type="text" name="nombreUsuario">
+      <br>
+      <button id="miBoton" class="botoncito"> Enviar </button>
     </div>
-    <script src="index.js" type="module"></script>
+
+
+<!--Instrucciones para la actividad y boton de inicio-->
+    <div id="instrucciones" class="oculto">
+    <br><p> Me ayudarás cifrando y descifrando </p><p>  un mensaje. Sigue estas instrucciones:</p>
+       <br><p> 1. Escribe el mensaje </p>
+       <p> 2. Codifícalo y decodifícalo usando</p><p> un número clave del 1 al 33</p>
+    <button id="comenzar" class="botoncito"> Empecemos </button>
+  </div>
+
+
+<!-- cifrado césar-->
+    <section id="cifradoCesar" class="oculto">
+    <div class="imputsSection">
+    <br>
+    <p id="mensaje1" class="menSaje"> Mensaje Original</p>
+    <input id="mensajeClaro" class="cipherSms" type="text" name="mensajeClaro">
+
+    <br><br><br>
+    <p id="mensaje2" class="menSaje"> Mensaje Cifrado/Descifrado</p>
+    <input id="mensajeDescifrado" class="cipherSms" type="text" name="mensajeDescifrado">
+    </div>
+
+    <div class="botonesCifrado">
+    <br><br>
+    <p id="key" class="menSaje"> Clave </p>
+    <input id="numeroLlave" class="colocaLlave" type="number" name="numeroLlave" min="1" max="33">
+
+    <br><br>
+    <button id="cifrar" class="botoncitoCipher"> Cifrar </button>
+    <br><br>
+    <button id="descifrado" class="botoncitoCipher"> Descifrar </button>
+    <br><br>
+    <button id="borrado" type="text" class="botonBorrar"> Borrar </button>
+    <br><br>
+    <button id="regresarPaginaInicio" type="button" class="botonHome"> Home </button>
+  </div>
+  </section>
+
+
+  <div id="root"></div>
+
+  <script src="index.js" type="module"></script>
+
   </body>
+
 </html>
