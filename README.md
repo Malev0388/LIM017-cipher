@@ -45,6 +45,9 @@ aplicación en el sistema ROT13.
 "Misión César"
 
 
+
+
+
 ### Descripción:
 
 Misión César es una web interactiva de acción y misterio, orientada al entretenimiento. Está basada
@@ -53,6 +56,9 @@ en una de las técnicas de cifrado más simples y conocidas, “El Cifrado Césa
 MC nos presenta a Carrie Mathison, agente secreto de la CIA, quien tiene una misión que
 no puede poner en riesgo y debe pedir ayuda a un extraño (usuario) para cumplir su cometido siguiendo
 sus instrucciones, que consisten en cifrar y descifrar un mensaje, utilizando un número de desplazamiento (clave).
+
+
+
 
 
 ### Principal usuario del producto:
@@ -93,16 +99,30 @@ de la web con las iniciales del proyecto.
 
 ![prototipo_1](img_readMe/Prototipo_1.jpg)
 
+
+
+
+
 Se decidió mantener el contenido de la primera página y cambiar únicamente la interacción de solicitud de nombre de
 usuario por el mensaje personalizado con las instrucciones. También, se agregó el botón “EMPECEMOS” para pasar a la
 siguiente página e iniciar la misión de cifrar/descifrar.
 
 ![prototipo_2](img_readMe/Prototipo_2.jpg)
 
+
+
+
+
 Finalmente, en la última página se propuso la idea de permitir al usuario empezar un nuevo mensaje y/o retornar al
 inicio de la misión. Por lo que, se adicionaron dos botones con las acciones de “BORRAR” y “HOME”.
 
 ![prototipo_3](img_readMe/Prototipo_3.jpg)
+
+
+
+
+
+
 
 
 
@@ -146,6 +166,8 @@ pero no puedes utilizar la letra "ñ", ni caracteres especiales.
 11. Para limpiar los campos de texto, la clave o iniciar de nuevo, haz click en el botón "BORRAR".
 
 12. Para regresar al inicio de la página, haz click en el botón "HOME".
+
+
 
 
 
