@@ -71,17 +71,17 @@ primera de ellas explique brevemente la historia de la web interactiva e invitar
 la Agente Secreto de la CIA, a cumplir su misión. Se agregó un campo para colocar nombre de usuario y el botón
 “ENVIAR” para mandar la información y pasar a la siguiente página.
 
-![boceto-1](img_readMe/Maqueta proyecto_1.jpg)
+![boceto_1](img_readMe/Maqueta proyecto_1.jpg)
 
 En la segunda página se colocó un mensaje personalizado, tomando el nombre del usuario e indicando las
 instrucciones de la misión. Además, se agregó un botón de siguiente.
 
-![boceto-2](img_readMe/Maqueta proyecto_2.jpg)
+![boceto_2](img_readMe/Maqueta proyecto_2.jpg)
 
 En la tercer y última página se colocaron dos campos de texto para los mensajes, un campo de desplazamiento
 numérico para la clave y dos botones con las acciones de “CIFRAR” / “DESCIFRAR”.
 
-![boceto-3](img_readMe/Maqueta proyecto_3.jpg)
+![boceto_3](img_readMe/Maqueta proyecto_3.jpg)
 
 
 
@@ -108,13 +108,15 @@ inicio de la misión. Por lo que, se adicionaron dos botones con las acciones de
 
 ### Vista final de la página web
 
-![mision-cesar-favicon](img_readMe/Favicon_MC.png)
+![mision_cesar_favicon](img_readMe/Favicon_MC.png)
 
-![mision-cesar-pantalla-1](img_readMe/Pantalla 1_MC.png)
+![mision_cesar_pantalla_1](img_readMe/Pantalla 1_MC.png)
 
-![mision-cesar-pantalla-2](img_readMe/Pantalla 2_MC.png)
+![mision_cesar_pantalla_2](img_readMe/Pantalla 2_MC.png)
 
-![mision-cesar-pantalla-3](img_readMe/Pantalla 3_MC.png)
+![mision_cesar_pantalla_3](img_readMe/Pantalla 3_MC.png)
+
+![mision_cesar_pantalla_4](img_readMe/Pantalla 4_MC.png)
 
 
 ## 4. Instrucciones de uso
@@ -141,27 +143,27 @@ pero no puedes utilizar la letra "ñ", ni caracteres especiales.
 
 ### Parte Obligatoria
 
-* `✓` `README.md` incluye info sobre proceso y decisiones de diseño.
-* `✓` `README.md` explica claramente quiénes son los usuarios y su relación con
+* [x] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [x] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
-* `✓` `README.md` explica claramente cómo el producto soluciona los
+* [x] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
-* `✓` Usa VanillaJS.
-* `✓` Implementa `cipher.encode`.
-* `✓` Implementa `cipher.decode`.
-* `✓` Pasa linter con configuración provista.
-* `✓` Pasa pruebas unitarias.
-* `✓` Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
+* [x] Usa VanillaJS.
+* [x] Implementa `cipher.encode`.
+* [x] Implementa `cipher.decode`.
+* [x] Pasa linter con configuración provista.
+* [x] Pasa pruebas unitarias.
+* [x] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
   mínimo del 50% de _branches_.
-* `✓` Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
+* [x] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
   cifrado/descifrado.
-* `✓` Interfaz permite escribir un texto para ser cifrado.
-* `✓` Interfaz muestra el resultado del cifrado correctamente.
-* `✓` Interfaz permite escribir un texto para ser descifrado.
-* `✓` Interfaz muestra el resultado del descifrado correctamente.
+* [x] Interfaz permite escribir un texto para ser cifrado.
+* [x] Interfaz muestra el resultado del cifrado correctamente.
+* [x] Interfaz permite escribir un texto para ser descifrado.
+* [x] Interfaz muestra el resultado del descifrado correctamente.
 
 ### Parte Opcional: "Hacker edition"
 
-* `✓` Cifra/descifra minúsculas
-* ` ` Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-* ` ` Permite usar un `offset` negativo.
+* [x] Cifra/descifra minúsculas
+* [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
+* [ ] Permite usar un `offset` negativo.

@@ -145,6 +145,7 @@
   background-color: transparent;
   border: 1px solid white;
   text-align: center;
+  color: white; 
 }
 
 .instruction {
