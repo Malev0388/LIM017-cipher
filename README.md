@@ -65,10 +65,33 @@ Está comprobado que el ocio es necesario para obtener un mejor rendimiento, tan
 
 ## 3. Diseño
 
-![mision-cesar-pantalla-1](Pantalla 1_MC.png)
-![mision-cesar-pantalla-2](Pantalla 2_MC.png)
-![mision-cesar-pantalla-3](Pantalla 3_MC.png)
-![mision-cesar-favicon](Favicon_MC.png)
+
+### Primer prototipo:
+
+Inicialmente, el nombre de la web se presentó en inglés (Caesar Mission), se plantearon tres páginas donde la
+primera de ellas explique brevemente la historia de la web interactiva e invitara al usuario a ayudar a Carrie,
+la Agente Secreto de la CIA, a cumplir su misión. Se agregó un campo para colocar nombre de usuario y un botón
+para enviar la información y pasar a la siguiente página.
+
+![maqueta-1](img_readMe\Maqueta proyecto_1.jpg)
+
+En la segunda pantalla se colocó un mensaje personalizado, tomando el nombre del usuario e indicando las
+instrucciones de la misión. Además, un botón para pasar a la siguiente página.
+
+![maqueta-2](img_readMe\Maqueta proyecto_2.jpg)
+
+En la tercer y última pantalla se colocaron dos campos de texto para los mensajes, un campo de desplazamiento
+numérico para la clave y dos botones con las acciones de cifrar/descifrar.
+
+![maqueta-3](img_readMe\Maqueta proyecto_3.jpg)
+
+
+### Segundo prototipo:
+
+![mision-cesar-pantalla-1](img_readMe\Pantalla 1_MC.png)
+![mision-cesar-pantalla-2](img_readMe\Pantalla 2_MC.png)
+![mision-cesar-pantalla-3](img_readMe\Pantalla 3_MC.png)
+![mision-cesar-favicon](img_readMe\Favicon_MC.png)
 
 
 ## 4. Instrucciones de uso
@@ -119,27 +142,27 @@ Organización del Trabajo:
 
 ### Parte Obligatoria
 
-[-] `README.md` incluye info sobre proceso y decisiones de diseño.
-[✓] `README.md` explica claramente quiénes son los usuarios y su relación con
+* [`✓`] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [`✓`] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
-[✓] `README.md` explica claramente cómo el producto soluciona los
+* [`✓`] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
-[✓] Usa VanillaJS.
-[✓] Implementa `cipher.encode`.
-[✓] Implementa `cipher.decode`.
-[-] Pasa linter con configuración provista.
-[✓] Pasa pruebas unitarias.
-[✓] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
+* [`✓`] Usa VanillaJS.
+* [`✓`] Implementa `cipher.encode`.
+* [`✓`] Implementa `cipher.decode`.
+* [`✓`] Pasa linter con configuración provista.
+* [`✓`] Pasa pruebas unitarias.
+* [`✓`] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
   mínimo del 50% de _branches_.
-[✓] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
+* [`✓`] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
   cifrado/descifrado.
-[✓] Interfaz permite escribir un texto para ser cifrado.
-[✓] Interfaz muestra el resultado del cifrado correctamente.
-[✓] Interfaz permite escribir un texto para ser descifrado.
-[✓] Interfaz muestra el resultado del descifrado correctamente.
+* [`✓`] Interfaz permite escribir un texto para ser cifrado.
+* [`✓`] Interfaz muestra el resultado del cifrado correctamente.
+* [`✓`] Interfaz permite escribir un texto para ser descifrado.
+* [`✓`] Interfaz muestra el resultado del descifrado correctamente.
 
 ### Parte Opcional: "Hacker edition"
 
-[✓] Cifra/descifra minúsculas
-[-] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-[-] Permite usar un `offset` negativo.
+* [`✓`] Cifra/descifra minúsculas
+* [] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
+* [] Permite usar un `offset` negativo.
