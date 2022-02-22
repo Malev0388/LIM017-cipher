@@ -7,10 +7,8 @@
 * [3. Diseño](#3-diseño)
 * [4. Instrucciones de Uso](#4-instrucciones-de-uso)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
+* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
+* [7. Checklist](#7-checklist)
 
 ***
 
@@ -67,6 +65,10 @@ Está comprobado que el ocio es necesario para obtener un mejor rendimiento, tan
 
 ## 3. Diseño
 
+![mision-cesar-pantalla-1](Pantalla 1_MC.png)
+![mision-cesar-pantalla-2](Pantalla 2_MC.png)
+![mision-cesar-pantalla-3](Pantalla 3_MC.png)
+![mision-cesar-favicon](Favicon_MC.png)
 
 
 ## 4. Instrucciones de uso
@@ -95,13 +97,8 @@ Está comprobado que el ocio es necesario para obtener un mejor rendimiento, tan
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
   tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
 
-## 6. Hacker edition
 
-
-## 7. Consideraciones técnicas
-
-
-## 8. Pistas, tips y lecturas complementarias
+## 6. Pistas, tips y lecturas complementarias
 
 Diseño de experiencia de usuario (User Experience Design):
 
@@ -118,31 +115,31 @@ Organización del Trabajo:
   poco a lo largo del -_bootcamp_.
 
 
-## 9. Checklist
+## 7. Checklist
 
 ### Parte Obligatoria
 
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
+[-] `README.md` incluye info sobre proceso y decisiones de diseño.
+[✓] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
+[✓] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
-* [✓] Usa VanillaJS.
-* [✓] Implementa `cipher.encode`.
-* [✓] Implementa `cipher.decode`.
-* [ ] Pasa linter con configuración provista.
-* [✓] Pasa pruebas unitarias.
-* [✓] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
+[✓] Usa VanillaJS.
+[✓] Implementa `cipher.encode`.
+[✓] Implementa `cipher.decode`.
+[-] Pasa linter con configuración provista.
+[✓] Pasa pruebas unitarias.
+[✓] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
   mínimo del 50% de _branches_.
-* [✓] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
+[✓] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
   cifrado/descifrado.
-* [✓] Interfaz permite escribir un texto para ser cifrado.
-* [✓] Interfaz muestra el resultado del cifrado correctamente.
-* [✓] Interfaz permite escribir un texto para ser descifrado.
-* [✓] Interfaz muestra el resultado del descifrado correctamente.
+[✓] Interfaz permite escribir un texto para ser cifrado.
+[✓] Interfaz muestra el resultado del cifrado correctamente.
+[✓] Interfaz permite escribir un texto para ser descifrado.
+[✓] Interfaz muestra el resultado del descifrado correctamente.
 
 ### Parte Opcional: "Hacker edition"
 
-* [✓] Cifra/descifra minúsculas
-* [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-* [ ] Permite usar un `offset` negativo.
+[✓] Cifra/descifra minúsculas
+[-] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
+[-] Permite usar un `offset` negativo.
