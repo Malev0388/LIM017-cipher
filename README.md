@@ -71,17 +71,17 @@ primera de ellas explique brevemente la historia de la web interactiva e invitar
 la Agente Secreto de la CIA, a cumplir su misión. Se agregó un campo para colocar nombre de usuario y el botón
 “ENVIAR” para mandar la información y pasar a la siguiente página.
 
-
+![maqueta_1](https://user-images.githubusercontent.com/98719379/155234625-715ce2ab-127d-4e06-a1b1-1367904cea43.jpg)
 
 En la segunda página se colocó un mensaje personalizado, tomando el nombre del usuario e indicando las
 instrucciones de la misión. Además, se agregó un botón de siguiente.
 
-
+![maqueta_2](https://user-images.githubusercontent.com/98719379/155234647-bc051229-9d9b-4320-a854-46951b95423a.jpg)
 
 En la tercer y última página se colocaron dos campos de texto para los mensajes, un campo de desplazamiento
 numérico para la clave y dos botones con las acciones de “CIFRAR” / “DESCIFRAR”.
 
-
+![maqueta_3](https://user-images.githubusercontent.com/98719379/155234695-736ad93d-1eee-45db-ba2f-71cdd1f76ce5.jpg)
 
 
 
@@ -110,30 +110,41 @@ inicio de la misión. Por lo que, se adicionaron dos botones con las acciones de
 
 ![mision_cesar_favicon](img_readMe/Favicon_MC.png)
 
-![mision_cesar_pantalla_1](img_readMe/Pantalla 1_MC.png)
+![mision_cesar_pantalla_1](https://user-images.githubusercontent.com/98719379/155234918-e393fda2-2a7d-409a-9bb0-1d98fc0f404e.png)
 
-![mision_cesar_pantalla_2](img_readMe/Pantalla 2_MC.png)
+![mision_cesar_pantalla_2](https://user-images.githubusercontent.com/98719379/155234955-18efe589-2065-4343-8e4a-abb9331b99d9.png)
 
-![mision_cesar_pantalla_3](img_readMe/Pantalla 3_MC.png)
+![mision_cesar_pantalla_3](https://user-images.githubusercontent.com/98719379/155234971-9092b0d6-7d2c-41f0-aff1-a172fa3bdf00.png)
 
-![mision_cesar_pantalla_4](img_readMe/Pantalla 4_MC.png)
+![mision_cesar_pantalla_4](https://user-images.githubusercontent.com/98719379/155234985-35b72556-4d43-4fbe-90c7-46bd032e7b7d.png)
 
 
 ## 4. Instrucciones de uso
 
 1. Se deberá leer la historia para entrar en contexto y conocer la temática de la web.
+
 2. Ingresar nombre de usuario y hacer click en el botón "ENVIAR" para recibir
 las instrucciones.
+
 3. Aparecerá el nombre del usuario y las instrucciones.
+
 4. Considerar usar un número clave del 1 al 33 para cifrar el mensaje
+
 5. Hacer click en el botón "EMPECEMOS" para dirigirnos a la siguiente página.
+
 6. Se encontrará con los campos de texto, "MENSAJE ORIGINAL" y "MENSAJE CIFRADO/DESCIFRADO".
+
 7. Ingresar el mensaje en el campo texto "MENSAJE ORIGINAL", el cual admite minúsculas o mayúsculas,
 pero no puedes utilizar la letra "ñ", ni caracteres especiales.
+
 8. Ingresar la clave, es decir el número de caracteres que deseas desplazar el texto.
+
 9. Elegir la opción "CIFRAR o DESCIFRAR".
+
 10. El resultado aparecerá en el campo de texto "MENSAJE CIFRADO/DESCIFRADO".
+
 11. Para limpiar los campos de texto, la clave o iniciar de nuevo, haz click en el botón "BORRAR".
+
 12. Para regresar al inicio de la página, haz click en el botón "HOME".
 
 
