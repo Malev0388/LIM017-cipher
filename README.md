@@ -71,17 +71,17 @@ primera de ellas explique brevemente la historia de la web interactiva e invitar
 la Agente Secreto de la CIA, a cumplir su misión. Se agregó un campo para colocar nombre de usuario y el botón
 “ENVIAR” para mandar la información y pasar a la siguiente página.
 
-![Maqueta proyecto_1](img_readMe/Maqueta proyecto_1.jpg)
+
 
 En la segunda página se colocó un mensaje personalizado, tomando el nombre del usuario e indicando las
 instrucciones de la misión. Además, se agregó un botón de siguiente.
 
-![Maqueta proyecto_2](img_readMe/Maqueta proyecto_2.jpg)
+
 
 En la tercer y última página se colocaron dos campos de texto para los mensajes, un campo de desplazamiento
 numérico para la clave y dos botones con las acciones de “CIFRAR” / “DESCIFRAR”.
 
-![Maqueta proyecto_3](img_readMe/Maqueta proyecto_3.jpg)
+
 
 
 
